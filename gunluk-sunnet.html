@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Günün Sünneti | HUŞU - Her Gün Yeni Bir Sünnet</title>
+    <meta name="description" content="Her gün yeni bir sünnet öğrenin. Bugünün sünneti ve açıklaması. Peygamberimizin hayatından günlük ilham.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌙%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-logo">HUŞU</div>
+        <div class="loader-subtitle">HUZUR | SÜNNET | UMUT</div>
+        <div class="loader-spinner"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">ه</div>
+            <span class="logo-text">HUŞU</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="sunnetler.html">Sünnetler</a></li>
+            <li><a href="kategoriler.html">Kategoriler</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+        <div class="mobile-menu-btn"><span></span><span></span><span></span></div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Günün Sünneti</h1>
+        <p>Her gün yeni bir sünnet öğrenin ve hayatınıza uygulayın</p>
+        <nav class="breadcrumb">
+            <a href="index.html">Ana Sayfa</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">Günün Sünneti</span>
+        </nav>
+    </header>
+
+    <section class="daily-sunnet" style="padding: 4rem 5%;">
+        <div class="daily-card reveal" style="max-width: 800px;">
+            <span class="daily-badge" id="tarih">Bugün</span>
+            <div class="daily-icon" id="gununIcon">🤲</div>
+            <h3 class="daily-title" id="gununBaslik">Günün Sünneti</h3>
+            <p class="daily-description" id="gununAciklama">
+                Günlük sünnet yükleniyor...
+            </p>
+            <div class="daily-source" id="gununKaynak">
+                <strong>Kaynak:</strong> Yükleniyor...
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <button onclick="yeniSunnet()" class="btn btn-primary">
+                <span>🔄 Başka Sünnet Göster</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="features" style="background: var(--bg-alt);">
+        <div class="section-header reveal">
+            <span class="section-tag">Arşiv</span>
+            <h2 class="section-title">Geçmiş Sünnetler</h2>
+        </div>
+        
+        <div class="sunnetler-grid" style="max-width: 1000px;">
+            <article class="sunnet-card reveal">
+                <div class="sunnet-content">
+                    <h3>Tahiyyatü'l-Mescid</h3>
+                    <p>Mescide girildiğinde oturmadan önce iki rekat namaz kılmak.</p>
+                    <a href="detay/tahiyyat-mescid.html" style="color: var(--secondary-color);">Detaylar →</a>
+                </div>
+            </article>
+
+            <article class="sunnet-card reveal stagger-1">
+                <div class="sunnet-content">
+                    <h3>Sabah Namazı Sonrası Zikir</h3>
+                    <p>Sabah namazından sonra tesbihat ve dua ile meşgul olmak.</p>
+                </div>
+            </article>
+
+            <article class="sunnet-card reveal stagger-2">
+                <div class="sunnet-content">
+                    <h3>Besmele Çekmek</h3>
+                    <p>Yemekten önce besmele çekmek ve yemeğe öyle başlamak.</p>
+                </div>
+            </article>
+
+            <article class="sunnet-card reveal stagger-3">
+                <div class="sunnet-content">
+                    <h3>Abdestli Uyumak</h3>
+                    <p>Uykuya abdestli yatmak ve yatmadan dua etmek.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo" style="margin-bottom: 1rem;">
+                    <div class="logo-icon">ه</div>
+                    <span class="logo-text">HUŞU</span>
+                </div>
+                <p>
+                    Peygamberimizin sünnetlerini keşfedin, huzuru yaşayın. 
+                    Modern ve anlaşılır bir rehber.
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><span>f</span></a>
+                    <a href="#" aria-label="Twitter"><span>X</span></a>
+                    <a href="#" aria-label="Instagram"><span>📷</span></a>
+                    <a href="#" aria-label="YouTube"><span>▶</span></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Hızlı Bağlantılar</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="sunnetler.html">Sünnetler</a></li>
+                    <li><a href="kategoriler.html">Kategoriler</a></li>
+                    <li><a href="gunluk-sunnet.html">Günün Sünneti</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Kategoriler</h4>
+                <ul class="footer-links">
+                    <li><a href="kategori-ibadet.html">İbadet ve Dua</a></li>
+                    <li><a href="kategori-ahlak.html">Ahlak ve Davranış</a></li>
+                    <li><a href="kategori-aile.html">Aile Hayatı</a></li>
+                    <li><a href="kategori-yemek.html">Yeme ve İçme</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Yasal</h4>
+                <ul class="footer-links">
+                    <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+                    <li><a href="kullanim-kosullari.html">Kullanım Koşulları</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="sss.html">SSS</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 HUŞU - Peygamberimizin Sünnetleri. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top">↑</button>
+    <script src="js/main.js"></script>
+    <script>
+        const sunnetler = [
+            {
+                icon: '🤲',
+                title: 'Tahiyyatü\'l-Mescid',
+                description: 'Mescide girildiğinde, oturmadan önce iki rekat namaz kılmak. Peygamber Efendimiz (s.a.v) bu sünneti yerine getirmeyi çok önemsedi.',
+                source: 'Buhari, Mevakît Kelâm-ı 25'
+            },
+            {
+                icon: '🌅',
+                title: 'Sabah Namazından Sonra Zikir',
+                description: 'Sabah namazından sonra "Âyet-el-Kürsi" okumak ve tesbih çekmek. Bu, gün boyu koruma ve bereket sağlar.',
+                source: 'Müslim, Zikir 24'
+            },
+            {
+                icon: '🍽️',
+                title: 'Yemekten Önce Besmele Çekmek',
+                description: 'Yemeğe başlamadan önce "Bismillah" demek. Bu, bereketin artmasına ve şeytanın yemekten uzak durmasına sebep olur.',
+                source: 'Tirmizi, Edeb 39'
+            },
+            {
+                icon: '🛏️',
+                title: 'Yatmadan Önce Abdest',
+                description: 'Uyumadan önce abdest almak ve dua etmek. Peygamber Efendimiz (s.a.v) her gece abdestli yatardı.',
+                source: 'Buhari, Vudu 68'
+            },
+            {
+                icon: '👋',
+                title: 'Selam Vermek',
+                description: 'Karşılaşılan kişilere güler yüzle selam vermek. "Müminler arasında en mükemmel sizden, selam vereninizdir."',
+                source: 'Ebû Davud, Edeb 144'
+            },
+            {
+                icon: '🌙',
+                title: 'Gece Namazı (Tahaccud)',
+                description: 'Gece yarısı kalkıp nafile namaz kılmak. Bu, kulun Rabbine en yakın olduğu zamandır.',
+                source: 'Buhari, Tahaccud 1'
+            },
+            {
+                icon: '📿',
+                title: 'Sübhanallah, Elhamdülillah, Allahu Ekber',
+                description: 'Günde 100 defa tesbih, tahmid ve tekbir söylemek. Bu, Amel defterindeki eksiklikleri tamamlar.',
+                source: 'Müslim, Zikir 21'
+            }
+        ];
+
+        function gosterSunnet(index) {
+            const sunnet = sunnetler[index];
+            document.getElementById('gununIcon').textContent = sunnet.icon;
+            document.getElementById('gununBaslik').textContent = sunnet.title;
+            document.getElementById('gununAciklama').textContent = sunnet.description;
+            document.getElementById('gununKaynak').innerHTML = '<strong>Kaynak:</strong> ' + sunnet.source;
+        }
+
+        function yeniSunnet() {
+            const rastgele = Math.floor(Math.random() * sunnetler.length);
+            gosterSunnet(rastgele);
+        }
+
+        // Sayfa yüklenince bugünün tarihini göster
+        const tarih = new Date().toLocaleDateString('tr-TR', { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+        document.getElementById('tarih').textContent = tarih;
+
+        // Bugünün sünnetini göster (günün indeksine göre)
+        const gun = new Date().getDay();
+        gosterSunnet(gun % sunnetler.length);
+    </script>
+</body>
+</html>

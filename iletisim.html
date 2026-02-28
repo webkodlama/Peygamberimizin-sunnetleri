@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | HUŞU - Peygamberimizin Sünnetleri</title>
+    <meta name="description" content="HUŞU ile iletişime geçin. Sorularınız, önerileriniz ve işbirliği talepleriniz için bize ulaşın.">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌙%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-logo">HUŞU</div>
+        <div class="loader-subtitle">HUZUR | SÜNNET | UMUT</div>
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">ه</div>
+            <span class="logo-text">HUŞU</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="sunnetler.html">Sünnetler</a></li>
+            <li><a href="kategoriler.html">Kategoriler</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html" class="active">İletişim</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>İletişim</h1>
+        <p>Bizimle iletişime geçin</p>
+        <nav class="breadcrumb">
+            <a href="index.html">Ana Sayfa</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">İletişim</span>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="features" style="background: var(--bg-alt);">
+        <div class="section-header reveal">
+            <span class="section-tag">Bize Ulaşın</span>
+            <h2 class="section-title">İletişim Kanalları</h2>
+            <p class="section-description">
+                Sorularınız, önerileriniz veya işbirliği talepleriniz için bize ulaşabilirsiniz.
+            </p>
+        </div>
+        
+        <div class="features-grid" style="max-width: 900px;">
+            <div class="feature-card reveal stagger-1" style="text-align: center;">
+                <div class="feature-icon" style="font-size: 2.5rem; background: linear-gradient(135deg, #ea4335, #fbbc05);">✉️</div>
+                <h3 class="feature-title">E-posta</h3>
+                <p class="feature-description">
+                    <a href="mailto:info@husu.com.tr" style="color: var(--secondary-color); font-weight: 600;">info@husu.com.tr</a>
+                </p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">En kısa sürede yanıt veriyoruz</p>
+            </div>
+            
+            <div class="feature-card reveal stagger-2" style="text-align: center;">
+                <div class="feature-icon" style="font-size: 2.5rem; background: linear-gradient(135deg, #1da1f2, #0d8bd9);">💬</div>
+                <h3 class="feature-title">Sosyal Medya</h3>
+                <p class="feature-description">
+                    <a href="#" style="color: var(--secondary-color); font-weight: 600;">@husu_sunnet</a>
+                </p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Twitter, Instagram ve Facebook'ta</p>
+            </div>
+            
+            <div class="feature-card reveal stagger-3" style="text-align: center;">
+                <div class="feature-icon" style="font-size: 2.5rem; background: linear-gradient(135deg, #25d366, #128c7e);">📱</div>
+                <h3 class="feature-title">WhatsApp</h3>
+                <p class="feature-description">
+                    <a href="https://wa.me/905000000000" style="color: var(--secondary-color); font-weight: 600;">+90 500 000 00 00</a>
+                </p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Hafta içi 09:00 - 18:00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="categories" style="background: var(--bg-color);">
+        <div class="section-header reveal">
+            <span class="section-tag">Mesaj Gönder</span>
+            <h2 class="section-title">Bize Yazın</h2>
+        </div>
+        
+        <div class="detail-section reveal" style="max-width: 700px;">
+            <form id="contactForm" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; color: var(--text-dark); font-weight: 500;">Adınız</label>
+                        <input type="text" id="name" name="name" required 
+                            style="width: 100%; padding: 1rem; border: 2px solid rgba(30, 58, 46, 0.1); border-radius: 12px; font-size: 1rem; transition: all 0.3s;">
+                    </div>
+                    <div>
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; color: var(--text-dark); font-weight: 500;">E-posta Adresiniz</label>
+                        <input type="email" id="email" name="email" required 
+                            style="width: 100%; padding: 1rem; border: 2px solid rgba(30, 58, 46, 0.1); border-radius: 12px; font-size: 1rem; transition: all 0.3s;">
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="subject" style="display: block; margin-bottom: 0.5rem; color: var(--text-dark); font-weight: 500;">Konu</label>
+                    <select id="subject" name="subject" required
+                        style="width: 100%; padding: 1rem; border: 2px solid rgba(30, 58, 46, 0.1); border-radius: 12px; font-size: 1rem; background: var(--white);">
+                        <option value="">Konu Seçin</option>
+                        <option value="soru">Soru</option>
+                        <option value="oneri">Öneri</option>
+                        <option value="hata">Hata Bildirimi</option>
+                        <option value="isbirligi">İşbirliği</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="message" style="display: block; margin-bottom: 0.5rem; color: var(--text-dark); font-weight: 500;">Mesajınız</label>
+                    <textarea id="message" name="message" rows="5" required
+                        style="width: 100%; padding: 1rem; border: 2px solid rgba(30, 58, 46, 0.1); border-radius: 12px; font-size: 1rem; resize: vertical; min-height: 150px;"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                    <span>Mesaj Gönder</span>
+                    <span>→</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="features" style="background: var(--bg-alt);">
+        <div class="section-header reveal">
+            <span class="section-tag">SSS</span>
+            <h2 class="section-title">Sık Sorulan Sorular</h2>
+        </div>
+        
+        <div class="detail-section reveal" style="max-width: 800px;">
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div style="padding: 1.5rem; background: var(--bg-color); border-radius: 12px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">HUŞU'daki sünnetler güvenilir mi?</h4>
+                    <p style="margin: 0;">Evet, tüm sünnetlerimiz Buhari, Müslim, Ebu Davud, Tirmizi gibi sahih hadis kaynaklarından derlenmektedir. Her sünnetin altında kaynak belirtilmektedir.</p>
+                </div>
+                
+                <div style="padding: 1.5rem; background: var(--bg-color); border-radius: 12px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">İçerikleri paylaşabilir miyim?</h4>
+                    <p style="margin: 0;">Evet, kaynak göstermek şartıyla içeriklerimizi paylaşabilirsiniz. Amacımız sünnetlerin yayılmasıdır.</p>
+                </div>
+                
+                <div style="padding: 1.5rem; background: var(--bg-color); border-radius: 12px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Yeni sünnet önerilerim var, nasıl iletebilirim?</h4>
+                    <p style="margin: 0;">Yukarıdaki iletişim formunu kullanarak veya info@husu.com.tr adresine e-posta göndererek önerilerinizi bize iletebilirsiniz.</p>
+                </div>
+                
+                <div style="padding: 1.5rem; background: var(--bg-color); border-radius: 12px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Uygulama veya mobil versiyon var mı?</h4>
+                    <p style="margin: 0;">Şu an için web sitesi üzerinden hizmet veriyoruz. Mobil uygulamamız yakında App Store ve Google Play'de olacak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo" style="margin-bottom: 1rem;">
+                    <div class="logo-icon">ه</div>
+                    <span class="logo-text">HUŞU</span>
+                </div>
+                <p>
+                    Peygamberimizin sünnetlerini keşfedin, huzuru yaşayın. 
+                    Modern ve anlaşılır bir rehber.
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><span>f</span></a>
+                    <a href="#" aria-label="Twitter"><span>X</span></a>
+                    <a href="#" aria-label="Instagram"><span>📷</span></a>
+                    <a href="#" aria-label="YouTube"><span>▶</span></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Hızlı Bağlantılar</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="sunnetler.html">Sünnetler</a></li>
+                    <li><a href="kategoriler.html">Kategoriler</a></li>
+                    <li><a href="gunluk-sunnet.html">Günün Sünneti</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Kategoriler</h4>
+                <ul class="footer-links">
+                    <li><a href="kategori-ibadet.html">İbadet ve Dua</a></li>
+                    <li><a href="kategori-ahlak.html">Ahlak ve Davranış</a></li>
+                    <li><a href="kategori-aile.html">Aile Hayatı</a></li>
+                    <li><a href="kategori-yemek.html">Yeme ve İçme</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4 class="footer-title">Yasal</h4>
+                <ul class="footer-links">
+                    <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+                    <li><a href="kullanim-kosullari.html">Kullanım Koşulları</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="sss.html">SSS</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 HUŞU - Peygamberimizin Sünnetleri. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top">↑</button>
+    <script src="js/main.js"></script>
+    <script>
+        // Simple form handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mesajınız için teşekkür ederiz! En kısa sürede size dönüş yapacağız.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
